@@ -1,0 +1,35 @@
+@use 'base';
+
+.hello {
+    h1 {
+        background-color: aqua;
+
+        p {
+            background-color: red;
+        }
+    }
+}
+
+@mixin theme($variable: yellow) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $variable;
+}
+
+.mixin {
+    @include theme;
+}
+
+.mvar {
+    @include theme(pink);
+}
+
+%message {
+    background-image: linear-gradient(to left, red, blue, green);
+}
+
+.message {
+    @extend %message;
+}

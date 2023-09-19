@@ -1,0 +1,31 @@
+.partial {
+  color: white;
+  background-color: blueviolet;
+}
+
+.hello h1 {
+  background-color: aqua;
+}
+.hello h1 p {
+  background-color: red;
+}
+
+.mixin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.mvar {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.message {
+  background-image: linear-gradient(to left, red, blue, green);
+}/*# sourceMappingURL=index.css.map */
